@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <title>Advanced Exercise</title>
+    <style>
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(200, 200, 200);
+        }
+
+        li {
+            list-style: none;
+        }
+
+        div {
+            font-size: 1rem;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .mycontent {
+            margin-left: 1rem !important;
+        }
+
+        .card {
+            margin-bottom: 0.3rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="bg-primary text-white">
+        <div class="container py-3">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active h2" aria-current="page" href="home-Lesia.html">Plot</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link h2" href=actors_Lesia.html">Actors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link h2" href="#">Reviews</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="container py-4">
+            <div class="row">
+                <a class="btn bg-secondary text-white col-3" data-bs-toggle="collapse" href="#lesia1" role="button"
+                    aria-expanded="false" aria-controls="lesia1">Actor 1</a>
+                <div class="col-9">
+                    <div class="collapse multi-collapse" id="lesia1">
+                        <div class="card card-body">
+                            <div>
+                                Some placeholder content for the first collapse component of this multi-collapse example. This panel is
+                                hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
+                            <div>
+                                <img src="https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/325466_1100-1100x628.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <button class="btn bg-secondary text-white col-3" type="button" data-bs-toggle="collapse" data-bs-target="#lesia2"
+                    aria-expanded="false" aria-controls="lesia2">Actor 2</button>
+            
+                <div class="col">
+                    <div class="collapse multi-collapse" id="lesia2">
+                        <div class="card card-body">
+                            <div>
+                                Some placeholder content for the first collapse component of this multi-collapse example. This panel is
+                                hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
+                            <div>
+                                <img src="https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/playlists/playlist_398/reconnect_with_nature.jpg?" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
